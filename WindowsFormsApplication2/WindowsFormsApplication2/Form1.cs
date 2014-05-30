@@ -23,7 +23,8 @@ namespace WindowsFormsApplication2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 cfilme = new Form2();
+            cfilme.Show();
         }
     }
 }
