@@ -23,8 +23,19 @@ namespace WindowsFormsApplication2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 cfilme = new Form2();
+            Cadastrarfilme cfilme = new Cadastrarfilme();
             cfilme.Show();
+        }
+                
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cadastraritem citem = new Cadastraritem();
+            citem.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
